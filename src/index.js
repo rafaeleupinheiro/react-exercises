@@ -1,18 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import FirstComponent from './components/FirstCompoment'
 
 const element = document.getElementById('root')
-// ReactDOM.render(<h1>Hello Word</h1>, element)
+ReactDOM.render(
+    <div>
+        <FirstComponent></FirstComponent>
+    </div>
+, element)
+
 
 // Using JSX
-ReactDOM.render(
-    <ul>
-        <li>1) Pedro </li>
-        <li>2) Maria </li>
-        <li>3) Ana </li>
-    </ul>
- , element)
+// ReactDOM.render(<h1>Hello Word</h1>, element)
 
+// ReactDOM.render(
+//     <ul>
+//         <li>1) Pedro </li>
+//         <li>2) Maria </li>
+//         <li>3) Ana </li>
+//     </ul>
+//  , element)
 
  // Using Javascript
 // const list = document.createElement('ul')
