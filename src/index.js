@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import FirstComponent from './components/FirstComponent'
 import {CompA, CompB as B } from './components/TwoComponents'
 import MultiElement from './components/MultiElements'
+import FamilySilva from './components/FamilySilva'
 
 const element = document.getElementById('root')
 ReactDOM.render(
@@ -13,6 +14,8 @@ ReactDOM.render(
         <B value="Hello i'm B!"></B>
 
         <MultiElement/>
+
+        <FamilySilva/>
     </div>
 , element)
 
