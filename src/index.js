@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FirstComponent from './components/FirstCompoment'
+import FirstComponent from './components/FirstComponent'
 
 const element = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <FirstComponent></FirstComponent>
+        <FirstComponent value="Good Morning!"></FirstComponent>
     </div>
 , element)
 
