@@ -6,4 +6,12 @@ const CompA = props =>
 const CompB = props =>
     <h1>Second Component: {props.value}</h1>  
     
+    
+// export default function() {
+//     return <p>teste</p>
+// }
+
+export default CompA
+
+// Most used solution
 export {CompA, CompB}    

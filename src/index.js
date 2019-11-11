@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import FirstComponent from './components/FirstComponent'
-import {CompA, CompB} from './components/TwoComponents'
+import {CompA, CompB as B } from './components/TwoComponents'
 import MultiElement from './components/MultiElements'
 
 const element = document.getElementById('root')
@@ -10,7 +10,7 @@ ReactDOM.render(
         <FirstComponent value="Good Morning!"></FirstComponent>
 
         <CompA value="Hello i'm A!"></CompA>
-        <CompB value="Hello i'm B!"></CompB>
+        <B value="Hello i'm B!"></B>
 
         <MultiElement/>
     </div>
