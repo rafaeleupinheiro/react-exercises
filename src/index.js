@@ -4,6 +4,11 @@ import FirstComponent from './components/FirstComponent'
 import {CompA, CompB as B } from './components/TwoComponents'
 import MultiElement from './components/MultiElements'
 import FamilySilva from './components/FamilySilva'
+import Family from './components//Family'
+import Member from './components//Member'
+import FunctionWithComponent from './components/FunctionWithComponent'
+import Father from './components/Father'
+import ComponentClass from './components/ComponentClass'
 
 const element = document.getElementById('root')
 ReactDOM.render(
@@ -15,7 +20,20 @@ ReactDOM.render(
 
         <MultiElement/>
 
-        <FamilySilva/>
+        <FamilySilva lastName="Silva"/>
+
+        <Family lastName="Pereira">
+            <Member name="Andre "></Member>
+            <Member name="Mariana "></Member>
+        </Family>
+
+        <FunctionWithComponent/>
+
+        <Father/>
+
+        <ComponentClass/>
+        <ComponentClass value="Component Class"/>
+
     </div>
 , element)
 

@@ -3,8 +3,8 @@ import Member from './Member'
 
 export default props =>
     <div>
-        <Member name="Rafael " lastName="Silva"/>
-        <Member name="Daniela " lastName="Silva"/>
-        <Member name="Pedro " lastName="Silva"/>
-        <Member name="Ana " lastName="Silva"/>
+        <Member name="Rafael " lastName={props.lastName}/>
+        <Member name="Daniela " lastName={props.lastName}/>
+        <Member name="Pedro " lastName={props.lastName}/>
+        <Member name="Ana " lastName={props.lastName}/>
     </div>
